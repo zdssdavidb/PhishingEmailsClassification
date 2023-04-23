@@ -4,9 +4,9 @@ For Honours Project (2023).
 
 1. Extract features from a folder of emails (.eml, .txt work fine).
 
-file method1_feature_extraction_test_emails.py opens a specified folder and processes all emails found,then adding a specified label and outputting all to the specified csv file.
-file method1_feature_extraction.py opens 2 folders and applies different labels (benign and phishing) and out produces a combined dataset of phishing/benign with labels.
-file method2_feature_extraction.py does the same as above but without adding labels and does not combine multiple datasets, only opens 1 at a time (so far).
+file "method1_feature_extraction_test_emails.py" opens a specified folder and processes all emails found,then adding a specified label and outputting all to the specified csv file.
+file "method1_feature_extraction.py" opens 2 folders and applies different labels (benign and phishing) and out produces a combined dataset of phishing/benign with labels.
+file "method2_feature_extraction.py" does the same as above but without adding labels and does not combine multiple datasets, only opens 1 at a time (so far).
 
 2. Combine phishing & genuine emails features in 1 dataset.
 3. Classify using the classification functions in the toolbox (contains the following ML classifiers: SVM Classifier, Decision Tree, LogisticRegression, Perceptron, Random Forest, Gaussian NaiveBayes, AdaBoost, MLP classifier, Hist Gradient Boosting Classifier, Gradient Boosting Classifier). [ this is ran through a loop of x repetitions, so can automatically re-run, say 4x times if "4" is specified.
